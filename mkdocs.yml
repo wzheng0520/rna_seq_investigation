@@ -1,0 +1,6 @@
+site_name: bulk RNA-seq Investigate
+site_url: https://sdi.genomics.hubs.altoslabs.com/rna_seq_investigation/
+repo_name: rna_seq_investigation
+repo_url: https://github.com/wzheng0520/rna_seq_investigation/
+nav:
+    - Home: index.md
