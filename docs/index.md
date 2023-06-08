@@ -152,3 +152,4 @@ Started job on |	Jun 06 11:22:11
 | 3026331473               | 3654905019                | 628573546     |
 | 2217107204               | 2444671569                | 227564366      |
 
+* Based on this investigation, we think it might cause by a locus (at the end of the reads) which has very small exons and appears to be highly expressed in the data.
