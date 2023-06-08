@@ -79,6 +79,11 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            
+            <li class="nav-item" data-level="2"><a href="#solution" class="nav-link">Solution</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
@@ -392,17 +397,31 @@
 </thead>
 <tbody>
 <tr>
-<td>2193020999</td>
+<td>3026331473</td>
 <td>3654905019</td>
-<td>1461884020</td>
+<td>628573546</td>
 </tr>
 <tr>
-<td>2193020999</td>
+<td>2217107204</td>
 <td>2444671569</td>
-<td>251650570</td>
+<td>227564366</td>
 </tr>
 </tbody>
-</table></div>
+</table>
+<ul>
+<li><strong>Based on this investigation, we think it might cause by a locus (at the end of the reads) which has very small exons and appears to be highly expressed in the data.</strong></li>
+</ul>
+<h2 id="solution">Solution</h2>
+<ul>
+<li>running STAR with <code>--seedPerWindowNmax 30</code><ul>
+<li>Through adding <code>--seePerWindowNmax</code> the speed increase by a factor  </li>
+<li>Using <code>--seePerWindowNmax</code> will reduce the mapping sensitivity<ul>
+<li><code>--seePerWindowNmax 30</code> increase speed by a factor of 10, but lose ~1%</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></div>
             </div>
         </div>
 
@@ -483,5 +502,5 @@
 
 <!--
 MkDocs version : 1.4.3
-Build Date UTC : 2023-06-07 17:14:58.486958+00:00
+Build Date UTC : 2023-06-08 22:41:16.675288+00:00
 -->
