@@ -159,3 +159,4 @@ Started job on |	Jun 06 11:22:11
      * Through adding ``--seePerWindowNmax`` the speed increase by a factor  
      * Using ``--seePerWindowNmax`` will reduce the mapping sensitivity
           * ``--seePerWindowNmax 30 `` increase speed by a factor of 10, but lose ~1%
+          * Please refrence to https://github.com/alexdobin/STAR/issues/1414 for more details.
